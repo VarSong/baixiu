@@ -13,6 +13,7 @@
   <script>NProgress.start()</script>
 
   <div class="main">
+    <?php include 'inc/navbar.php'; ?>
     <div class="container-fluid">
       <div class="page-title">
         <h1>所有文章</h1>
@@ -98,6 +99,7 @@
       </table>
     </div>
   </div>
+  <?php $current_page = 'posts'; ?>
   <?php include 'inc/sidebar.php'; ?>
   <script src="/static/assets/vendors/jquery/jquery.js"></script>
   <script src="/static/assets/vendors/bootstrap/js/bootstrap.js"></script>

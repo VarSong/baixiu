@@ -13,6 +13,8 @@
   <script>NProgress.start()</script>
 
   <div class="main">
+    
+  <?php include 'inc/navbar.php'; ?>
 
     <div class="container-fluid">
       <div class="page-title">
@@ -90,7 +92,7 @@
       </table>
     </div>
   </div>
-
+  <?php $current_page = 'comments'; ?>
   <?php include 'inc/sidebar.php'; ?>
   <script src="/static/assets/vendors/jquery/jquery.js"></script>
   <script src="/static/assets/vendors/bootstrap/js/bootstrap.js"></script>

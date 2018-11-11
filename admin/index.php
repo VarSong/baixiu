@@ -13,6 +13,8 @@
   <script>NProgress.start()</script>
 
   <div class="main">
+
+  <?php include 'inc/navbar.php'; ?>
     <div class="container-fluid">
       <div class="jumbotron text-center">
         <h1>One Belt, One Road</h1>
@@ -37,7 +39,7 @@
       </div>
     </div>
   </div>
-
+  <?php $current_page = 'index'; ?>
  <?php include 'inc/sidebar.php'; ?>
   <script src="/static/assets/vendors/jquery/jquery.js"></script>
   <script src="/static/assets/vendors/bootstrap/js/bootstrap.js"></script>

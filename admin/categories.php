@@ -13,7 +13,9 @@
   <script>NProgress.start()</script>
 
   <div class="main">
-
+    
+    <?php include 'inc/navbar.php'; ?>
+    
     <div class="container-fluid">
       <div class="page-title">
         <h1>分类目录</h1>
@@ -88,6 +90,7 @@
       </div>
     </div>
   </div>
+  <?php $current_page = 'categories'; ?>
   <?php include 'inc/sidebar.php'; ?>
   <script src="/static/assets/vendors/jquery/jquery.js"></script>
   <script src="/static/assets/vendors/bootstrap/js/bootstrap.js"></script>
