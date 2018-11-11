@@ -69,7 +69,7 @@
       </form>
     </div>
   </div>
-
+  <?php include 'inc/sidebar.php'; ?>
   <script src="/static/assets/vendors/jquery/jquery.js"></script>
   <script src="/static/assets/vendors/bootstrap/js/bootstrap.js"></script>
   <script>NProgress.done()</script>
